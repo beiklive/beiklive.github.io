@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="关于首页摘要         当前主题默认显示文章所有内容，需要在需要显示的部分末尾添加">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo基本命令和使用">
+<meta property="og:url" content="https://beiklive.github.io/2021/12/03/secondd/index.html">
+<meta property="og:site_name" content="BEIKLIVE">
+<meta property="og:description" content="关于首页摘要         当前主题默认显示文章所有内容，需要在需要显示的部分末尾添加">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-12-03T09:09:03.785Z">
+<meta property="article:modified_time" content="2021-12-03T11:42:55.024Z">
+<meta property="article:author" content="beiklive">
+<meta name="twitter:card" content="summary"><title>Hexo基本命令和使用 | BEIKLIVE</title><link ref="canonical" href="https://beiklive.github.io/2021/12/03/secondd/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":false,"scrollDownIcon":true},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"复制","copySuccess":"复制成功","copyError":"复制失败"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">Hexo基本命令和使用</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-12-03</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2021-12-03</span></span></div></header><div class="post-body">
+        <h2 id="关于首页摘要"   >
+          <a href="#关于首页摘要" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#关于首页摘要"></a> 关于首页摘要</h2>
+      
+<blockquote>
+<p>当前主题默认显示文章所有内容，需要在需要显示的部分末尾添加<span id="more"></span>标记</p>
+</blockquote>
+
+        <h2 id="新建一个markdown文件"   >
+          <a href="#新建一个markdown文件" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#新建一个markdown文件"></a> 新建一个markdown文件</h2>
+      
+<figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;文件名&quot;</span>  </span><br><span class="line"><span class="comment"># 之后可以在source/_posts下找到对应的md文件</span></span><br></pre></td></tr></table></div></figure>
+<!-- more -->
+
+        <h2 id="启动hexo服务"   >
+          <a href="#启动hexo服务" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#启动hexo服务"></a> 启动hexo服务</h2>
+      
+<figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server  或者  hexo s</span><br></pre></td></tr></table></div></figure>
+
+        <h2 id="修改过配置后需要执行以下命令以应用"   >
+          <a href="#修改过配置后需要执行以下命令以应用" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#修改过配置后需要执行以下命令以应用"></a> 修改过配置后需要执行以下命令以应用</h2>
+      
+<figure class="highlight bash"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"><span class="comment">#  hexo d会将所有修改推送到github上</span></span><br></pre></td></tr></table></div></figure>
+<p>更多详细用法: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://blog.csdn.net/sinat_37781304/article/details/82729029/" >CSDN</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><nav class="post-paginator paginator"><div class="paginator-next"><a class="paginator-next__link" href="/2021/12/03/hello-world/"><span class="paginator-prev__text">Hello World</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E9%A6%96%E9%A1%B5%E6%91%98%E8%A6%81"><span class="toc-number">1.</span> <span class="toc-text">
+           关于首页摘要</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AAmarkdown%E6%96%87%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">
+           新建一个markdown文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8hexo%E6%9C%8D%E5%8A%A1"><span class="toc-number">3.</span> <span class="toc-text">
+           启动hexo服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E8%BF%87%E9%85%8D%E7%BD%AE%E5%90%8E%E9%9C%80%E8%A6%81%E6%89%A7%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%E4%BB%A5%E5%BA%94%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">
+           修改过配置后需要执行以下命令以应用</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="https://avatars.githubusercontent.com/u/73771431?s=400&amp;u=a781b07acda23a33ce974bc9a06fcbea90042dd3&amp;v=4" alt="avatar"></div><p class="sidebar-ov-author__text">beiklive</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/beiklive" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">2</div><div class="sidebar-ov-state-item__name">归档</div></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021~未知</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>beiklive</span><span class="footer__devider">|</span><span>苏ICP备20038092号</span></div><div><a href="https://github.com/beiklive" rel="noopener" target="_blank">Github Pages</a></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
